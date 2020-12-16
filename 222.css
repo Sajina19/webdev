@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: url(Paris-.jpeg);    
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height :80px;
+    width :100%
+    background:rgba(0,0,0,0.4);
+}
+
+.logo{
+    width :140px;
+    height :auto;
+    padding :20px 100px;
+}
+
+.navbar ul{
+float: right;
+margin-right:20px ;
+}
+
+.navbar ul li{
+ list-style-type: upper-roman;
+ font-color:rgb(201, 173, 173);
+ margin: 0 8px;
+ display: inline-block;
+ line-height: 80px;
+    }
+
+    .navbar ul li a{
+        text-decoration stroke: animation-fill-mode: ;
+color: navajowhite;
+
+    }
+
+.navbar ul li a.acti
+.navbar ul li a:hover{
+    background: rgb(148, 74, 74);
+    border-radius: 2px;
+}
+
+.center h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(212, 201, 212);
+    font-size: 60px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    padding: 90px 50px 50px 40px;
+    position: absolute;
+    color: rgb(121, 39, 121);
+    font-size: 60px;
+    font-weight: bold;
+    width: 880px;
+    text-align: center;
+}
+
+.center .buttons{
+  padding-left: 10px;
+  padding-top: 30px;
+    
+}
+
+.buttons button{
+height: 20px;
+    width : 150px;
+    font-size:18px;
+    font-weight: bold;
+    color: teal;
+    background-color: tomato;
+    cursor: pointer;
+}
